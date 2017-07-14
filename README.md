@@ -8,7 +8,7 @@ Functional: No
 
 Author: Christoph Berger
 
-### Build your own container: 
+### Build your own image: 
 
 ```
 docker build https://github.com/njarng/embts.git
