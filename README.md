@@ -8,7 +8,18 @@ Functional: No
 
 Author: Christoph Berger
 
-### Docker Command: 
+### Build your own container: 
+
+```
+docker build https://github.com/njarng/embts.git
+```
+This command builds a fresh Docker image in the context of this repo based on the Dockerfile provided. Alternatively, you can clone the repo and run the build locally with: 
+```
+docker build . < Dockerfile
+```
+This sends the current directory to the Docker daemon and uses the Dockerfile contained therein.
+
+### Run the container: 
 ```
 docker run -v $(pwd):/data --workdir=/usr/src/app -i -t cberger/em_final python main.py
 ```
