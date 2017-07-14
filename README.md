@@ -1,10 +1,8 @@
 # Expectation-Maximisation Algorithm by Esther Alberts
 
-Dockerfile to create a new Docker image from the Source Code at Bitbucket
+Dockerfile and supporting files to create a new Docker image from the Source Code at Bitbucket
 
 Version: 0.0
-
-Functional: No
 
 Author: Christoph Berger
 
